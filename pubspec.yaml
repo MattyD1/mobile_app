@@ -12,9 +12,12 @@ dependencies:
   go_router: ^14.3.0
 
 dev_dependencies:
+  flutter_native_splash: ^2.4.1
   flutter_test:
     sdk: flutter
   lint: ^2.3.0
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/
