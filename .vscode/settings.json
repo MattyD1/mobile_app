@@ -1,0 +1,33 @@
+{
+    "[dart]": {
+      "editor.tabSize": 2,
+      "editor.detectIndentation": false,
+      "editor.defaultFormatter": "Dart-Code.dart-code",
+      "editor.formatOnSave": true,
+    },
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "selection",
+    "editor.renderLineHighlight": "none",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.matchBrackets": "never",
+    "explorer.openEditors.visible": 1,
+    "workbench.editor.showIcons": false,
+    "workbench.colorCustomizations": {
+      "tab.activeBorder": "#0000"
+    },
+    "editor.fontLigatures": true,
+    "editor.fontVariations": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.lineHeight": 26,
+    "editor.lineNumbers": "on",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": false,
+    "breadcrumbs.enabled": false,
+    "window.title": "${dirty}${activeEditorShort}",
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.smoothScrolling": true
+  }
+  
