@@ -52,16 +52,13 @@ jobs:
       - name: 🐦 Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: 3.24.0
+          flutter-version: 3.24.3
           channel: stable
           cache: true
           cache-key: flutter-:os:-:channel:-:version:-:arch:-:hash:-${{ hashFiles('**/pubspec.lock') }}
       
       - name: 📦 Install Dependencies
         run: flutter pub global activate very_good_cli
-
-      - name: ⚙️ Run Setup
-        run: dart run build_runner build
 
       - name: ✨ Check Formatting
         run: dart format --line-length 80 --set-exit-if-changed lib
